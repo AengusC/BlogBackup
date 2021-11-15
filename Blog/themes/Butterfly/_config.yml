@@ -365,8 +365,8 @@ canvas_ribbon:
 
 # 動態彩帶
 canvas_ribbon_piao:
-  enable: false
-  mobile: false # false 手機端不顯示 true 手機端顯示
+  enable: true
+  mobile: true # false 手機端不顯示 true 手機端顯示
 
 # canvas_nest
 # https://github.com/hustcc/canvas-nest.js
@@ -380,7 +380,7 @@ canvas_nest:
 
 # 打字效果
 activate_power_mode:
-  enable: false
+  enable: true
   colorful: true # 冒光特效
   shake: true # 抖動特效
 
@@ -388,7 +388,7 @@ activate_power_mode:
 # 避免卡頓，建議只開啓一個
 # 點擊烟火特效
 fireworks:
-  enable: false
+  enable: true
 
 # 點擊出現愛心
 click_heart:
@@ -434,9 +434,9 @@ font:
 
 # 網站名字字體
 # 左上角網站名字 主頁居中網站名字
-blog_title_font:
-  font_link: https://fonts.googleapis.com/css?family=Titillium+Web #字體鏈接
-  font-family: Titillium Web, PingFang SC, Hiragino Sans GB, "Microsoft YaHei", Helvetica Neue, Helvetica, Arial, sans-serif
+blog_title_font: AengusChen
+  #font_link: https://fonts.googleapis.com/css?family=Titillium+Web #字體鏈接
+  #font-family: Titillium Web, PingFang SC, Hiragino Sans GB, "Microsoft YaHei", Helvetica Neue, Helvetica, Arial, sans-serif
 
 # 水平分隔綫
 hr:
