@@ -1,13 +1,13 @@
 ---
-title: LINUX 随笔
+title: Linux 随笔
 date: 2021-11-15 17:35:33
 tags:
     - 学习笔记
     - 技术
-    - LINUX
+    - Linux
 categories: 
     - 笔记
-    - GIT
+    - Linux
 cover: https://i.loli.net/2021/11/15/DX4gr8zZxJcnMRK.jpg
 ---
 ## 语法
