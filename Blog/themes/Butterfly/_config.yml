@@ -458,8 +458,8 @@ subtitle:
   source: false
   # (如果有英文逗號' , '，請使用轉義字符 &#44;)
   sub:
-    - 今日事&#44;今日畢
-    - Never put off till tomorrow what you can do today
+    - 没有痛苦&#44;就没有收获
+    - No Pain No Gain
 
 ####    側邊欄    ####
 #-------------------------------------
@@ -479,7 +479,7 @@ aside:
 
 # 網站公告
 announcement:
-  content: 感謝訪問本站，若喜歡請收藏 ^_^
+  content: 感谢访问,喜欢请收藏,互相学习 ^_^
 
 # busuanzi count for PV / UV in site
 # 訪問人數
