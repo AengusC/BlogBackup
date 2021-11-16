@@ -9,4 +9,5 @@ type: "Gallery"
 ![宇宙](https://i.loli.net/2020/05/23/RZTjAgOWL45FGnr.jpg)
 ![壁纸1](https://i.loli.net/2020/05/23/Yg9PGwF1nybavsq.jpg)
 ![壁纸2](https://i.loli.net/2020/05/23/qMRU9gPVvZNLexG.jpg)
+![高达](https://i.loli.net/2021/11/16/uWPXI6CiFhv1eHc.jpg)
 {% endgallery %}
