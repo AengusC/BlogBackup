@@ -10,7 +10,7 @@ menu:
   标签: /tags/ || fa fa-tags
   分类: /categories/ || fa fa-folder-open
   #休闲||fa fa-heartbeat:
-  娱乐||fa fa-heartbeat:
+  影音||fa fa-heartbeat:
     - 音乐 || /music/ || fa fa-music
     - 照片 || /Gallery/ || fa fa-picture-o
     - 电影 || /movies/ || fa fa-film
