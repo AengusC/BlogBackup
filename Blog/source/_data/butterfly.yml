@@ -298,11 +298,11 @@ reward:
   enable: true
   QR_code:
     - itemlist:
-#       img: /img/wechat.jpg
+        img: /img/wechat.jpg
         text: 微信
     - itemlist:
-#        img: /img/alipay.jpg
-        text: 支付寶
+        img: /img/alipay.jpg
+        text: 支付宝
 
 # 推薦文章
 related_post:
