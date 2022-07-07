@@ -120,3 +120,9 @@ offline:
 #播放器插件
 aplayer:
   meting: true
+
+# hexo-admin authentification
+admin:
+  username: AengusChen
+  password_hash: $2a$10$1T8bZH6anyY2Roj1NJsvR.j1HOG4jhGp1WCj03cyzCrEwNv3Uyb6m
+  secret: my super secret phrase
