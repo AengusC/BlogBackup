@@ -349,7 +349,7 @@ tag_ui: # 留空或index
 # 圖片格式 background: url(http://xxxxxx.com/xxx.jpg)
 # 顔色 background: '#49B202'
 # 留空 顯示白色
-background: /img/p1.jpeg
+background: url(https://s2.loli.net/2022/07/07/9xeUQjsJH4k3v2C.jpg)
 
 # footer是否顯示圖片背景(與top_img一致)
 footer_bg: false
