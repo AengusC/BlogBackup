@@ -365,8 +365,8 @@ canvas_ribbon:
 
 # 動態彩帶
 canvas_ribbon_piao:
-  enable: true
-  mobile: true # false 手機端不顯示 true 手機端顯示
+  enable: false
+  mobile: false # false 手機端不顯示 true 手機端顯示
 
 # canvas_nest
 # https://github.com/hustcc/canvas-nest.js
@@ -458,7 +458,6 @@ subtitle:
   source: false
   # (如果有英文逗號' , '，請使用轉義字符 &#44;)
   sub:
-    - 没有痛苦&#44;就没有收获
     - No Pain No Gain
 
 ####    側邊欄    ####
@@ -468,7 +467,7 @@ aside_mobile: true
 
 # 側邊欄顯示設置
 aside:
-  position: right # left or right
+  position: left # left or right
   card_author: true
   card_announcement: true
   card_recent_post: true
