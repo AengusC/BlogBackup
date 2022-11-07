@@ -47,7 +47,7 @@ code_word_wrap: false
 # 是否禁止複製（如果禁止，highlight_copy的功能將無效)
 # copyright 複製的内容後面加上版權信息
 copy:
-  enable: true # true 開啓 / false 禁止
+  enable: false # true 開啓 / false 禁止
   copyright: false
 
 # social settings
@@ -422,7 +422,7 @@ display_mode: light
 
 # 美化post頁顯示
 post_beautify:
-  enable: false
+  enable: true
   title-prefix-icon: '\f0c1'
   title-prefix-icon-color: "#F47466"
 
@@ -546,7 +546,7 @@ fancybox:
 # position 彈窗位置
 # 可選 top-left / top-center / top-right / bottom-left / bottom-center / bottom-right
 snackbar:
-  enable: false
+  enable: true
   position: bottom-left
   bg_light: "#49b1f5" #light mode時彈窗背景
   bg_dark: "#2d3035" #dark mode時彈窗背景
