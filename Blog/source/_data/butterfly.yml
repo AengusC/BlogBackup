@@ -10,8 +10,12 @@ menu:
   标签: /tags/ || fa fa-tags
   分类: /categories/ || fa fa-folder-open
   #休闲||fa fa-heartbeat:
-  音乐:  /music/ || fa fa-music
-  影集:  /Gallery/ || fa fa-picture-o
+  影音||fa fa-heartbeat:
+    - 音乐 || /music/ || fa fa-music
+    - 照片 || /Gallery/ || fa fa-picture-o
+    - 电影 || /movies/ || fa fa-film
+  #音乐:  /music/ || fa fa-music
+  #影集:  /Gallery/ || fa fa-picture-o
   友链: /link/ || fa fa-link
   关于: /about/ || fa fa-heart
 
@@ -19,7 +23,7 @@ menu:
 
 # Favicon
 # ---------------
-favicon: /img/alian.ico
+favicon: /img/write.ico
 
 # PWA
 # See https://github.com/JLHwung/hexo-offline
@@ -103,10 +107,10 @@ katex:
 avatar: /img/cyk.jpg
 
 # the banner image of index
-index_img: https://cdn.jsdelivr.net/gh/jerryc127/butterfly_cdn@2.1.0/top_img/index.jpg
+index_img: /img/崖上的波妞4k高清壁纸_彼岸图网.jpeg #https://cdn.jsdelivr.net/gh/jerryc127/butterfly_cdn@2.1.0/top_img/index.jpg
 
 # if the banner of page not setting,it will show the top_img
-default_top_img: https://cdn.jsdelivr.net/gh/jerryc127/butterfly_cdn@2.1.0/top_img/index.jpg
+default_top_img: #https://cdn.jsdelivr.net/gh/jerryc127/butterfly_cdn@2.1.0/top_img/index.jpg
 
 # the default cover of the post
 default_cover: https://cdn.jsdelivr.net/gh/jerryc127/butterfly_cdn@2.1.0/top_img/default.png
@@ -286,7 +290,7 @@ Flink:
   name: Blog 名字： AengusChen
   address: Blog 地址： https://aengu.cn/
   avatar: Blog 頭像： https://aengu.cn/img/cyk.jpg
-  info: Blog 簡介： No pain No gain , right?
+  info: Blog 簡介： No pain No gain 
   comment: 如果需要交换友链请留言！
 
 # 打賞按鈕
@@ -294,11 +298,11 @@ reward:
   enable: true
   QR_code:
     - itemlist:
-#       img: /img/wechat.jpg
+        img: /img/wechat.jpg
         text: 微信
     - itemlist:
-#        img: /img/alipay.jpg
-        text: 支付寶
+        img: /img/alipay.jpg
+        text: 支付宝
 
 # 推薦文章
 related_post:
@@ -345,7 +349,7 @@ tag_ui: # 留空或index
 # 圖片格式 background: url(http://xxxxxx.com/xxx.jpg)
 # 顔色 background: '#49B202'
 # 留空 顯示白色
-background:
+background: url(https://s2.loli.net/2022/07/07/9xeUQjsJH4k3v2C.jpg)
 
 # footer是否顯示圖片背景(與top_img一致)
 footer_bg: false
@@ -391,7 +395,7 @@ fireworks:
 
 # 點擊出現愛心
 click_heart:
-  enable: false
+  enable: true
 
 # 點擊出現文字，文字可自行修改
 ClickShowText:
@@ -457,8 +461,8 @@ subtitle:
   source: false
   # (如果有英文逗號' , '，請使用轉義字符 &#44;)
   sub:
-    - 没有痛苦 &#44;就没有收获 对吗？
-    - No Pain No Gain , right ?
+    - 没有痛苦 &#44;就没有收获
+    - No Pain No Gain
 
 ####    側邊欄    ####
 #-------------------------------------
@@ -478,7 +482,7 @@ aside:
 
 # 網站公告
 announcement:
-  content: 感谢访问,老铁双击666。 ^_^
+  content: 欢迎访问,欢迎收藏。 
 
 # busuanzi count for PV / UV in site
 # 訪問人數
@@ -662,4 +666,5 @@ CDN:
   translate: /js/tw_cn.js
 
   #音乐播放器
-  
+  aplayer:
+  meting: true

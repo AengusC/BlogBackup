@@ -1,17 +1,18 @@
----
 title: Git 学习笔记
-date: 2020-03-12 11:43:33
 tags:
-    - 学习笔记
-    - 技术
-    - GIT
-categories: 
-    - 笔记
-    - GIT
-cover: https://i.loli.net/2020/03/13/Fnxi1LTuImwdavc.jpg
+  - 学习笔记
+  - 技术
+  - GIT
+categories:
+  - 笔记
+  - GIT
+cover: 'https://i.loli.net/2020/03/13/Fnxi1LTuImwdavc.jpg'
+author: Chen
+date: 2020-03-12 11:43:00
 ---
-#### 一.git 创建本地版本库小结
-初始化一个Git仓库,使用`git init`命令。\
+#### 一.git创建本地版本库小结
+任何事情必须先在本地初始化
+初始化一个Git仓库，使用`git init`命令。\
 添加文件到Git仓库,分两步：\
 使用命令`git add <file>`,注意,可反复多次使用,添加多个文件；\
 使用命令`git commit -m <message>` 完成.	
