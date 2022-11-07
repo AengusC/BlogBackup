@@ -349,7 +349,7 @@ tag_ui: # 留空或index
 background: https://i.loli.net/2021/11/16/uWPXI6CiFhv1eHc.jpg
 
 # footer是否顯示圖片背景(與top_img一致)
-footer_bg: false
+footer_bg: true
 
 # 背景特效
 # 避免卡頓，建議只開啓一個
@@ -388,7 +388,7 @@ activate_power_mode:
 # 避免卡頓，建議只開啓一個
 # 點擊烟火特效
 fireworks:
-  enable: true
+  enable: false
 
 # 點擊出現愛心
 click_heart:
@@ -447,7 +447,7 @@ hr:
 # 主頁subtitle
 # 打字效果
 subtitle:
-  enable: true
+  enable: false
   # source調用第三方服務
   # source: false 關閉調用
   # source: 1  調用金山詞霸的每日一句（簡體）
@@ -467,7 +467,7 @@ aside_mobile: true
 
 # 側邊欄顯示設置
 aside:
-  position: left # left or right
+  position: right # left or right
   card_author: true
   card_announcement: true
   card_recent_post: true
